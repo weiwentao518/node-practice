@@ -20,7 +20,11 @@
         {{ fruit.name }} - {{ fruit.price }}
       </li>
     </ul>
-    <el-pagination layout="prev, pager, next" @current-change="currentChange" :total="total"></el-pagination>
+    <el-pagination
+      layout="prev, pager, next"
+      @current-change="currentChange"
+      :total="total"
+    ></el-pagination>
   </div>
   <script>
     var app = new Vue({
